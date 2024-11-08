@@ -5,21 +5,21 @@ const features = [
     description:
       "Restore and strengthen damaged concrete for long-lasting durability.",
     icon: "bx:bxs-wrench",
-    url: "/services/structural-concrete-repair",
+    url: "#",
   },
   {
     title: "Carbon Fiber Strengthening",
     description:
       "Reinforce structures with cutting-edge carbon fiber technology.",
     icon: "bx:bxs-wrench",
-    url: "/services/carbon-fiber-strengthening",
+    url: "#",
   },
   {
     title: "Parking Lot Striping",
     description:
       "Enhance safety and organization with clear, professional parking lot striping.",
     icon: "bx:bxs-wrench",
-    url: "/services/parking-lot-striping",
+    url: "#",
   },
 ];
 </script>
@@ -54,7 +54,7 @@ const features = [
         <p class="text-slate-500 mt-2 mb-4 leading-relaxed">
           {{ item.description }}
         </p>
-        <LandingLink href="{{ item.url }}">
+        <LandingLink :href="item.url">
           Learn More
         </LandingLink>
       </div>
