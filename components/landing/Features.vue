@@ -1,52 +1,46 @@
 <script setup>
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: "Structural Concrete Repair",
     description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+      "Restore and strengthen damaged concrete for long-lasting durability.",
+    icon: "bx:bxs-wrench",
+    url: "/services/structural-concrete-repair",
   },
   {
-    title: "100% Static HTML, No JS",
+    title: "Carbon Fiber Strengthening",
     description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+      "Reinforce structures with cutting-edge carbon fiber technology.",
+    icon: "bx:bxs-wrench",
+    url: "/services/carbon-fiber-strengthening",
   },
   {
-    title: "On-Demand Components",
+    title: "Parking Lot Striping",
     description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
-  },
-  {
-    title: "Broad Integration",
-    description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
-  },
-  {
-    title: "SEO Enabled",
-    description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
-  },
-  {
-    title: "Community",
-    description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
+      "Enhance safety and organization with clear, professional parking lot striping.",
+    icon: "bx:bxs-wrench",
+    url: "/services/parking-lot-striping",
   },
 ];
 </script>
 
 <template>
-  <div class="mt-16 md:mt-0">
+  <div class="mt-16">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      About Jason Contracting &amp; Repair
     </h2>
     <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
+      Established in September 2013 as a commercial specialty general contractor focusing on
+      assisting facility owners and managers with building repairs  they were not able to find
+      others to complete.  Our motto Give US your stress was aimed at taking the load of these busy
+      folks as they have many responsibilities and duties. Our autonomous management of the
+      building repairs and modifications  allowed them to focus on other responsibilities they
+      normally deal with thus making life easier for them.
+    </p>
+    <p class="text-lg mt-4 text-slate-600">
+      Along with these services we would also perform building renovations and additions, find and
+      repair water and air leaks, assess building conditions and deficiencies, and perform building
+      strengthening with carbon fiber and structural concrete repairs.
     </p>
   </div>
 
@@ -57,9 +51,12 @@ const features = [
       </div>
       <div>
         <h3 class="font-semibold text-lg">{{ item.title }}</h3>
-        <p class="text-slate-500 mt-2 leading-relaxed">
+        <p class="text-slate-500 mt-2 mb-4 leading-relaxed">
           {{ item.description }}
         </p>
+        <LandingLink href="{{ item.url }}">
+          Learn More
+        </LandingLink>
       </div>
     </div>
   </div>
