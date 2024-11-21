@@ -23,13 +23,13 @@
         </p>
         <div class="mt-6 flex flex-col sm:flex-row gap-3">
           <LandingLink
-            href="#"
+            href="/contact"
             >Contact Us</LandingLink
           >
           <LandingLink
             size="lg"
             styleName="outline"
-            href="#"
+            href="#services"
             >Our Services</LandingLink
           >
         </div>

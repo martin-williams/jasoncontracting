@@ -2,8 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .hero-bg {
   background-image: url('../img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
 }
 .hero-bg::before {
@@ -16,6 +24,27 @@
   background: rgba(255, 255, 255, 0.9);
 }
 .hero-bg > main {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-bg {
+  background-image: url('../img/parking-lot.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.cta-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+}
+.cta-bg > * {
   position: relative;
   z-index: 1;
 }
