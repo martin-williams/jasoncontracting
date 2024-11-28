@@ -2,7 +2,7 @@
 const menuitems = [
   {
     title: "Structural Concrete Repair",
-    path: "#",
+    path: "/repair",
   },
   {
     title: "Carbon Fiber Strengthening",
