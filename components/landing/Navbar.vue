@@ -6,11 +6,11 @@ const menuitems = [
   },
   {
     title: "Carbon Fiber Strengthening",
-    path: "#",
+    path: "/strengthening",
   },
   {
     title: "Parking Lot Striping",
-    path: "#",
+    path: "/striping",
   },
   {
     title: "Contact",

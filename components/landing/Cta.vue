@@ -8,7 +8,7 @@
       detail as possible so we can provide the most accurate estimate.
     </p>
     <div class="flex mt-5">
-      <LandingLink href="#" styleName="inverted">Get Started</LandingLink>
+      <LandingLink href="/contact" styleName="inverted">Get Started</LandingLink>
     </div>
   </div>
 </template>

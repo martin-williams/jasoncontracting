@@ -5,21 +5,21 @@ const features = [
     description:
       "Restore and strengthen damaged concrete for long-lasting durability.",
     icon: "bx:bxs-wrench",
-    url: "#",
+    url: "/repair",
   },
   {
     title: "Carbon Fiber Strengthening",
     description:
       "Reinforce structures with cutting-edge carbon fiber technology.",
     icon: "bx:bxs-wrench",
-    url: "#",
+    url: "/strengthening",
   },
   {
     title: "Parking Lot Striping",
     description:
       "Enhance safety and organization with clear, professional parking lot striping.",
     icon: "bx:bxs-wrench",
-    url: "#",
+    url: "/striping",
   },
 ];
 </script>

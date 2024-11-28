@@ -26,8 +26,17 @@ html {
 .hero-bg.repair-bg {
   background-image: url('../img/repair-bg.jpg');
 }
+.hero-bg.strengthening-bg {
+  background-image: url('../img/strengthening-bg.jpg');
+}
+.hero-bg.striping-bg::before {
+  background: rgba(255, 255, 255, 0.4);
+}
 .hero-bg.repair-bg::before {
   background: rgba(255, 255, 255, 0.3);
+}
+.hero-bg.strengthening-bg::before {
+  background: rgba(255, 255, 255, 0.6);
 }
 .hero-bg > main {
   position: relative;
